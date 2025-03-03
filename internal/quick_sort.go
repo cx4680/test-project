@@ -1,4 +1,4 @@
-package algorithm
+package internal
 
 func QuickSort(arr []int) []int {
 	if len(arr) <= 1 {
