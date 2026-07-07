@@ -1,5 +1,14 @@
 package sort
 
+import (
+	"fmt"
+	"testing"
+)
+
+func TestQuickSort(t *testing.T) {
+	fmt.Println(QuickSort([]int{1, 5, 6, 3, 9, 7, 6, 4, 6, 8, 0}))
+}
+
 func QuickSort(arr []int) []int {
 	if len(arr) <= 1 {
 		return arr

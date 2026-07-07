@@ -1,4 +1,4 @@
-module my-test
+module test-project
 
 go 1.24
 

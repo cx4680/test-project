@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"my-test/internal/model"
-	"my-test/internal/service"
 	"net/http"
+	"test-project/internal/model"
+	"test-project/internal/service"
 
 	"github.com/gin-gonic/gin"
 )
